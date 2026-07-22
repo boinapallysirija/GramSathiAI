@@ -1,16 +1,62 @@
-# React + Vite
+# 🩺 GramSathi AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## AI-Powered Rural Healthcare Assistant
 
-Currently, two official plugins are available:
+GramSathi AI is a multilingual healthcare assistant that helps rural citizens get quick preliminary health guidance. Users can select their preferred language, describe their symptoms, receive a preliminary health assessment, view first-aid suggestions, locate nearby hospitals, and access emergency assistance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Language Selection (English, Telugu, Hindi)
+- 🩺 Symptom Input
+- 🤖 Preliminary Health Assessment
+- 💊 First Aid Suggestions
+- ⚠️ Health Warning Messages
+- 📍 Nearby Hospital Locator
+- 🚨 Emergency SOS
+- 📢 Medical Disclaimer
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- CSS
+- React Router
+
+---
+
+## 📋 Project Workflow
+
+```
+Home
+   ↓
+Language Selection
+   ↓
+Enter Symptoms
+   ↓
+AI Health Report
+   ↓
+Nearby Hospitals
+   ↓
+Emergency SOS
+```
+
+---
+
+## 🚀 Future Enhancements
+
+- 🎤 Voice-based Symptom Input
+- 🤖 AI-powered Diagnosis
+- 🌍 Fully Multilingual Health Reports
+- 📍 GPS-based Hospital Recommendations
+- 📄 Downloadable Health Reports
+
+---
+
+## ⚠️ Disclaimer
+
+This project is a hackathon prototype developed for educational and demonstration purposes only. It is **not** a substitute for professional medical advice. Users should always consult a qualified healthcare professional for diagnosis and treatment.
