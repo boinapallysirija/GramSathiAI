@@ -72,6 +72,10 @@ function Symptoms() {
 
         <button
           onClick={() => {
+            if (!symptoms.trim()) {
+              alert("Please enter at least one symptom.");
+              return;
+            }
             localStorage.setItem("symptoms", symptoms);
             navigate("/result");
           }}

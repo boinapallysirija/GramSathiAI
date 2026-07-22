@@ -1,13 +1,30 @@
 //import "./Result.css";
 function Result() {
   const symptoms = localStorage.getItem("symptoms")?.toLowerCase() || "";
-  let disease = "General Health Issue";
+  if (!symptoms.trim()) {
+  return (
+    <div className="result-container">
+      <div className="result-card">
+        <h2>⚠️ No Symptoms Entered</h2>
+
+        <p>
+          Please go back and enter your symptoms to generate a health report.
+        </p>
+
+        <button onClick={() => window.history.back()}>
+          ← Go Back
+        </button>
+      </div>
+    </div>
+  );
+}
+  let disease = "Symptoms could not be identified";
   let firstAid = [
-    "Drink plenty of water",
-    "Take proper rest",
-    "Consult a doctor if symptoms persist"
+    "Monitor your symptoms",
+    "Drink enough water",
+    "Consult a healthcare professional for proper diagnosis"
   ];
-  let warning = "Visit the nearest healthcare center if symptoms worsen.";
+  let warning =  "The entered symptoms do not match the current prototype rules. Please consult a doctor for an accurate diagnosis.";
 
   if (symptoms.includes("fever")) {
     disease = "Possible Viral Fever";
